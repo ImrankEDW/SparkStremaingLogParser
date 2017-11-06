@@ -1,6 +1,0 @@
---ncat utility command usage
-
---got to project folder and type below command which reads data from access_log file and ports it to 9999 
-
-ncat -nl 9999 < access_log.log
-
