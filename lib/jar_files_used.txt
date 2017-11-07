@@ -1,0 +1,11 @@
+Spark2.0.0 libs
+kafka_2.11-0.8.2.1 libs
+spark-streaming-kafka_2.10-1.6.1.jar
+
+Mavean Dependency/Coordinate:-
+===============================
+<dependency>
+  <groupId>org.apache.spark</groupId>
+  <artifactId>spark-streaming-kafka_2.10</artifactId>
+  <version>1.6.1</version>
+</dependency>
