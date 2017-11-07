@@ -1,7 +1,7 @@
-1. Kafka setup instructions for Windows: https://dzone.com/articles/running-apache-kafka-on-windows-os (for our ex. we will work on kafka 2.9.2)
+1. Kafka setup instructions for Windows: https://dzone.com/articles/running-apache-kafka-on-windows-os (for our ex. we will work on kafka 2.11.0.8.2.1)
 2. run zkserver (from %ZOOKEEPER_HOME\bin%, which will start zookeeper server) 
-3. C:\kafka_2.11-1.0.0>.\bin\windows\kafka-server-start.bat .\config\server.properties
-4. C:\kafka_2.11-1.0.0\bin\windows>kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic testLogs
-5. C:\kafka_2.11-1.0.0\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic testLogs < C:\SparkStreamingCourse\SparkStremaingLogParser\access_log.txt
-6. C:\kafka_2.11-1.0.0\bin\windows>kafka-console-consumer.bat --zookeeper localhost:2181 --topic testLogs
+3. C:\kafka_2.11-0.8.2.1>.\bin\windows\kafka-server-start.bat .\config\server.properties
+4. C:\kafka_2.11-0.8.2.1\bin\windows>kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic testLogs
+5. C:\kafka_2.11-0.8.2.1\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic testLogs < C:\SparkStreamingCourse\SparkStremaingLogParser\access_log.txt
+6. C:\kafka_2.11-0.8.2.1\bin\windows>kafka-console-consumer.bat --zookeeper localhost:2181 --topic testLogs
 
